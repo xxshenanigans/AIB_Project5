@@ -1,0 +1,45 @@
+Network Configuration:
+batch_size: 1
+hidden_layer_structure: [102]
+learning_rate: 0.004155923499457689
+keep_prob: 0.8656542586183774
+rnn_cell: <class 'tensorflow.python.ops.rnn_cell_impl.LSTMCell'>
+max_grad_norm: 5.0
+lambda_w1: 0.03
+lambda_w2: 3.0
+lambda_o: 0.1
+Num of problems: 1865
+Num of run: 1
+Max num of run: 1
+Keep Prob: 0.8656542586183774
+Current time : 2021-10-20 15:17:30 KST
+Epoch    1, Train ACC: 0.71962, Train AUC: 0.75194, Train Loss: 0.63712
+Epoch    1, Valid ACC: 0.72802, Valid AUC: 0.75856, Valid AUC Curr: 0.88067, Valid Loss: 0.63181*
+Epoch    1, Test ACC: 0.72635, Test AUC: 0.75971, Test AUC Curr: 0.88039, Test Loss: 0.63104
+w_l1: 0.00941034362503607, w_l2: 0.021765419623402886
+m1: 0.24833902052704873, m2: 0.025368519435067426. Saving the model
+time used for this epoch: 4554.812645196915s
+***********
+The best validation result occured at: 1-th epoch, with validation ACC: 0.72802 and AUC: 0.75856
+The best testing result occured at: 1-th epoch, with testing ACC: 0.72635 and AUC: 0.75971
+*********************************
+average validation ACC for 1 runs: 0.7280192620467519
+average validation AUC for 1 runs: 0.758555408029559
+average validation AUC Current for 1 runs: 0.8806657182712045
+
+average waviness-l1 for 1 runs: 0.00941034362503607
+average waviness-l2 for 1 runs: 0.021765419623402886
+average consistency_m1 for 1 runs: 0.24833902052704873
+average consistency_m1 for 1 runs: 0.025368519435067426
+
+test ACC for 1 runs : [0.7263489716029956]
+test AUC for 1 runs : [0.7597076863579955]
+
+average test ACC for 1 runs: 0.7263489716029956
+average test AUC for 1 runs: 0.7597076863579955
+average test AUC Current for 1 runs: 0.88038611758899
+
+latex: 
+cell_type & num. layer & layer_structure & learning rate & keep prob. & $\lambda_o$ & $\lambda_{w_1}$ & $\lambda_{w_2}$ & Avg. ACC(N) & Avg. AUC(N) & Avg. AUC(C) & Avg. $w_1$ & Avg. $w_2$ & Avg. $m_1$ & Avg. $m_2$\\ 
+LSTM & 1 & 102 & 0.0042 & 0.8657 & 0.1000 & 0.0300 & 3.0000 & 0.7280192620467519 $\pm$ 0.0 & 0.758555408029559 $\pm$ 0.0 & 0.8806657182712045 $\pm$ 0.0 & 0.00941034362503607 $\pm$ 0.0 & 0.021765419623402886 $\pm$ 0.0 & 0.24833902052704873 $\pm$ 0.0 & 0.025368519435067426 $\pm$ 0.0\\ 
+
